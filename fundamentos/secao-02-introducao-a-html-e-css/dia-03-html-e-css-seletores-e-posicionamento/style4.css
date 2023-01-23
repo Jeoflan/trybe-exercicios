@@ -1,0 +1,27 @@
+div:hover {
+    border: 10px solid yellowgreen;
+  }
+  div:nth-of-type(1) > h3{
+    background-color: #679436;
+    color: orange;
+  }
+div:nth-of-type(2) > h3{
+    background-color: #386641;
+    text-decoration: underline;
+}
+div:nth-last-of-type(3) > h3{
+    background-color: #17729c;
+    font-size: 30px;
+    height: 70px;
+}
+div:nth-of-type(4) > h3{
+    background-color: #1a0650;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div:nth-of-type(5){
+    background-color: #97f9f9;
+    color: red;
+}
+div:nth-child(odd) h3 {
+    font-style: italic
+  }
